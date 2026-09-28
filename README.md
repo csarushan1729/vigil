@@ -67,15 +67,4 @@ Jamal, Priya) always replay a gold-standard brief regardless of any key.
 After a run, the brief panel shows its source (`gold` / `live` / `extractive`)
 so you can confirm whether a key is actually being used.
 
-## Deployment
 
-Next.js deploys to **Vercel** with zero configuration — push to GitHub and
-import the repo. It also runs on any Node host via `npm run build && npm run start`,
-or as a static/edge deployment on Netlify, Cloudflare, etc. with their
-respective Next.js adapters.
-
-## Notes
-
-This repository originated from a Grok App Builder session (TanStack Start +
-a pre-wired, unused Postgres/Better Auth stack). It has since been cleaned of
-all Grok-platform scaffolding and migrated from TanStack Start to Next.js.
