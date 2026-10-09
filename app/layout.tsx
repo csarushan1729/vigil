@@ -3,12 +3,21 @@ import { Toaster } from "sonner";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:8080"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://vigil-nine-jet.vercel.app"),
   title: "Vigil",
   description:
     "Vigil is a governed multi-agent care intelligence OS for families navigating illness. RAG, orchestration, and safety contracts — not a chatbot.",
   icons: { icon: "/favicon.svg" },
-  openGraph: { images: ["/og.jpg"] },
+  openGraph: {
+    title: "Vigil: governed multi-agent care OS for family caregivers",
+    description:
+      "10-node agent graph with hybrid RAG, deterministic crisis routing, and 8 safety contracts on every run. Not a chatbot.",
+    images: ["/og.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og.jpg"],
+  },
 };
 
 export const viewport: Viewport = {
